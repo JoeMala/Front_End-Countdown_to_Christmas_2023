@@ -1,0 +1,45 @@
+.begin {
+    font-style: italic;
+    font-size: larger;
+    color: darkkhaki;
+    margin-right: 48%;
+    margin-left: 48%;
+    padding: 2px;
+    background-color: black;
+    border-color: blue;
+    border-width: 5px;
+    border-style: double;
+    
+}
+
+.begin:hover {
+    background-color: yellow;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-size: larger;
+    margin-right: 45%;
+}
+
+
+html, background {
+    background-color: grey;
+}
+
+.inline {
+    display: inline;
+    padding: 10px;
+    /* text-align: center; */
+   
+    color: white;
+}
+
+#heading {
+    text-align: center;
+    font-size: 24px;
+    color: white;
+}
+
+#centerAlign{
+    margin-top: 100px;
+    margin:auto;
+}
