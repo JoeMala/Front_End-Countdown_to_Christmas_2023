@@ -26,6 +26,10 @@ html, background {
 }
 
 .daysMinsSecs {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
     display: inline;
     padding: 10px;
     margin: auto;
@@ -46,7 +50,14 @@ html, background {
 }
 
 .centerAlign{
-    margin-top: 50px;
-    
-    
+    margin-top: 50px;  
 }
+.coming-soon {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    /* background-image: url("./images/example1.jpg"); */
+    background-size: 100%;
+  }

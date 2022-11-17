@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+
+  body {
+    color: white;
+    font-family: 'Clicker Script', cursive;
+  }
+
+.countdown {
+    display: flex;
+    justify-content: space-around;
+    text-align: center; 
+}
+
+.coming-soon {
+    min-height: 100vh;  
+    align-items: center;
+    justify-content: center; 
+    display: flex;
+    flex-direction: column;
+    background-image: url("https://img.freepik.com/free-photo/christmas-gift-boxes-with-small-baubles_23-2147971532.jpg?w=900&t=st=1668715420~exp=1668716020~hmac=03aa398874207426410576c1180eabcad48ac9c30ded8965db89eb64931a96b1");
+    background-size: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#day,
+#hour,
+#min,
+#sec {
+    font-size: 7rem;
+    font-weight: bold;
+    /* padding: 2rem; what cause timer and heading to move every second time changed; jitter */
+
+}
+
+h2 {
+    font-size: 5rem;
+    font-weight: bold;
+    /* margin-left: 10%;*/
+    margin-top: 10%;
+    padding-left: 100px;
+    padding-right: 100px; 
+  }
+
+  h3 {
+    font-size: 3rem;
+    font-weight: bold;
+    
+    /* margin-top: 6rem; */
+  }
+  
