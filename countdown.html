@@ -12,9 +12,10 @@
     <script src="countdown.js"></script>
 </head>
 <body>
+    
     <section class="coming-soon">
         <div>
-            <h2>Christmas is coming...</h2>
+            <h2>The Christmas party is coming...</h2>
             <div class="countdown">
                 <div class="day-container">
                     <h3 id="day">day</h3>
@@ -36,6 +37,17 @@
                     <h3>Seconds</h3>
                 </div>
             </div>
+            <!-- Added form after everything.  prob need to delete -->
+            <div class="form">
+                <form action="/action_page.php">
+                    <label for="fname">RSVP Here</label><br>
+                    <input type="text" id="fname" name="fname" placeholder="First"><br>
+                    <label for="lname">Last name:</label><br>
+                    <input type="text" id="lname" name="lname" value="Doe"><br><br>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+            
         </div>
 
 

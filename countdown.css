@@ -7,13 +7,14 @@
 
   body {
     color: white;
-    font-family: 'Clicker Script', cursive;
+    
   }
 
 .countdown {
     display: flex;
     justify-content: space-around;
-    text-align: center; 
+    text-align: center;
+    font-family: 'Clicker Script', cursive; 
 }
 
 .coming-soon {
@@ -35,7 +36,6 @@
     font-size: 7rem;
     font-weight: bold;
     /* padding: 2rem; what cause timer and heading to move every second time changed; jitter */
-
 }
 
 h2 {
@@ -43,14 +43,16 @@ h2 {
     font-weight: bold;
     /* margin-left: 10%;*/
     margin-top: 10%;
-    padding-left: 100px;
-    padding-right: 100px; 
+    
+    font-family: 'Clicker Script', cursive; 
   }
 
   h3 {
     font-size: 3rem;
     font-weight: bold;
-    
     /* margin-top: 6rem; */
   }
   
+  .form {
+    justify-content: left;
+  }
