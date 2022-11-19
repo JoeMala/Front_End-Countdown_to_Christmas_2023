@@ -65,17 +65,22 @@ h2 {
     border-color: transparent;  
   }
   button:hover {
+    transition: 1s;
     color: white;
     background-color: transparent;
     border-color: gold;  
   }
 
-  .navbar {
+  #navbar {
+    transition: 1s;
     width: 100%;
     height: 60px;
     background-color: transparent;
   }
-  .navbar:hover {
+  #navbar:hover {
+    opacity: .9;
+    transition: 1s;
     background-color: firebrick;
+    
 
   }
