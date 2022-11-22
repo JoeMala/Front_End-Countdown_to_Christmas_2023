@@ -16,6 +16,8 @@ var x = setInterval(function() {
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
+  //add a zero to any number less than 10 on countdown clock
+  //for example, insted of showing 8 seconds it will show 08 seconds.  Looks better imo.
   function secs(time) {
     if (time < 10) {
       return "0" + time;
@@ -25,7 +27,7 @@ var x = setInterval(function() {
     }
   }
 
-  // Display the result in the element with id="demo"
+
   document.getElementById("day").innerHTML = secs(days);
 
   document.getElementById("hour").innerHTML = secs(hours);
@@ -34,10 +36,9 @@ var x = setInterval(function() {
 
   document.getElementById("sec").innerHTML = secs(seconds);
 
-  // If the count down is finished, write some text
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo").innerHTML = "EXPIRED";
+    document.getElementById("demo").innerHTML = "Merry Christmas!";
   }
 }, 1000);
 setInterval(countdown, 500);
