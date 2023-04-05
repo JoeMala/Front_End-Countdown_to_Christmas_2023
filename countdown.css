@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
   }
 
   body {
@@ -35,7 +34,6 @@
     font-size: 7rem;
     font-weight: bold;
     /* padding: 2rem; what cause timer and heading to move every second time changed; jitter */
-
 }
 
 h2 {
@@ -50,7 +48,5 @@ h2 {
   h3 {
     font-size: 3rem;
     font-weight: bold;
-    
-    /* margin-top: 6rem; */
   }
   
