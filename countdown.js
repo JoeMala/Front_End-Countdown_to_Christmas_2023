@@ -27,13 +27,9 @@ var x = setInterval(function() {
     }
   }
 
-
   document.getElementById("day").innerHTML = secs(days);
-
   document.getElementById("hour").innerHTML = secs(hours);
- 
   document.getElementById("min").innerHTML = secs(minutes);
-
   document.getElementById("sec").innerHTML = secs(seconds);
 
   if (distance < 0) {
